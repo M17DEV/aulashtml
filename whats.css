@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background:url(imgs/tresvias.jpg) no-repeat;
+    min-height: 770px;
+        align-items: center;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logozap img{
+    width: 50px;
+    position: relative;
+    
+
+}
+.inputs{
+border: 20px;
+border-radius: 50px;
+}
+
