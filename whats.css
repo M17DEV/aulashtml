@@ -8,7 +8,6 @@
 body{
     background:url(imgs/tresvias.jpg) no-repeat;
     min-height: 770px;
-        align-items: center;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -18,16 +17,29 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+form{
+    display: flex;
+    flex-direction: column;
+    background: rgb(133, 133, 133);
+    padding: 40px 24px;
+    border-radius: 10px;
+}
 
 .logozap img{
     width: 50px;
     position: relative;
     
+    
 
 }
 .inputs{
-border: 20px;
-border-radius: 50px;
+width: 100%;
+margin: 10px 8px;
 }
-
+main{
+    width: 300px;
+    position: relative;
+}
+h1{
+    text-align: left;
+}
